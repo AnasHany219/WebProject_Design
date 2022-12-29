@@ -1,0 +1,531 @@
+html {
+    line-height: 1.15;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+    letter-spacing: 0;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+    height: 90px;
+    background: #53a1eb;
+    align-items: center;
+    font-size: 0.9rem;
+    padding: 0 4rem;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+.imglogo {
+    display: flex;
+    margin-bottom: 0;
+    height: 100%;
+    padding-left: 1rem;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+}
+
+.imglogo img {
+    width: 160px;
+    color: #fff;
+}
+
+.login-regist {
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.login,
+.regist {
+    color: #fff;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.login {
+    border: 1px solid #fff;
+}
+
+.regist {
+    margin-right: 1rem;
+    background-color: #1fc689;
+    border: 0.125rem solid #1fc689;
+}
+
+.login:hover {
+    opacity: 0.4;
+}
+
+.regist:hover {
+    opacity: 0.4;
+}
+
+.h4h1 {
+    background-color: #4790d6;
+    text-align: right;
+    width: 100%;
+}
+
+
+
+.conenthh {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    color: #fff;
+}
+
+.conenthh h4 {
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    font-weight: bold;
+}
+
+.conenthh h1 {
+    font-size: 1.25rem;
+}
+
+.pagebody {
+    padding-bottom: 4rem;
+    background-color: #fff;
+    text-align: right;
+    height: 2016px;
+}
+
+.available {
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+
+.tracksword {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    padding: 4rem 0;
+}
+
+.tracksword h4 {
+    text-align: right;
+    font-size: 1.25rem;
+    padding-bottom: 1rem;
+    color: #000;
+    border-bottom: 1px solid #eee;
+}
+
+.tracks {
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+
+.Search-track {
+    background: #f3f3f3;
+    text-align: right;
+    padding: 1rem 2rem;
+    border-radius: 1.25rem;
+    height: 100px;
+}
+
+.goal-programming,
+.level,
+.programming-language {
+    width: 33.33333%;
+    padding: 1rem;
+    float: right;
+}
+
+.goals,
+.levels,
+.languages {
+    width: 100%;
+    position: relative;
+    background: #fafbfc;
+    border: 1px solid #555;
+    border-radius: 0.25rem;
+}
+
+.selection-golas,
+.selection-level,
+.selection-lenguage {
+    z-index: 1;
+    width: 100%;
+    color: #555;
+    position: relative;
+    font-weight: bold;
+    font-size: .875rem;
+    padding: 0.5rem 1rem 0.5rem 2rem;
+    background-color: transparent;
+    border-width: 0;
+}
+
+.paths:after,
+.paths:before {
+    content: " ";
+    display: table;
+}
+
+.actual-path {
+    display: flex;
+    width: 33.33333%;
+    height: 530px;
+    padding: 2rem 1rem;
+    float: right;
+}
+
+.path {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 0.125rem solid #EEE;
+    border-radius: 0.25rem;
+}
+
+.path-link {
+    flex: 1 1;
+    color: #333;
+    text-decoration: none;
+}
+
+.icon-img {
+    padding-top: 1rem;
+}
+
+.track-title {
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.track-details {
+    font-size: .875rem;
+    padding: 1rem 2rem;
+    color: #999;
+}
+
+.track-button {
+    font-size: .75rem;
+    font-weight: bold;
+    color: #7eaaff;
+    background-color: white;
+    text-decoration: underline;
+    padding: 0.5rem 0;
+    border: 0 none;
+    cursor: pointer;
+}
+
+.Navigate-track {
+    margin-top: 1rem;
+    padding: 2rem 1rem;
+    background-color: #f4f4f4;
+}
+
+.path-link:hover {
+    opacity: 0.4;
+}
+
+.Link-Navigate-track {
+    display: inline-block;
+    background-color: #357edd;
+    color: #fff;
+    text-align: center;
+    font-size: .875rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 0.25rem;
+}
+
+.Link-Navigate-track:hover {
+    background-color: #07264e;
+}
+
+
+.Professional-camps-available {
+    text-align: right;
+    width: 100%;
+}
+
+.campsword {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    padding: 4rem 0;
+}
+
+.campsword h4 {
+    text-align: right;
+    font-size: 1.25rem;
+    padding-bottom: 1rem;
+    color: #000;
+    border-bottom: 1px solid #eee;
+}
+
+.Duration-degree-Out {
+    background-color: #f4f4f4;
+    margin-top: 1rem;
+    padding: 2rem 1rem;
+}
+
+.Duration-degree-In {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.degree,
+.Duration {
+    width: 50%;
+    font-size: .75rem;
+    font-weight: bold;
+    color: #333;
+    margin: 0 auto;
+    padding: 0.25rem 0;
+}
+
+.Duration-degree {
+    color: #999;
+}
+
+.vertical {
+    border-left: 1px solid grey;
+    height: 50px;
+}
+
+.footer {
+    width: 100%;
+}
+
+.Links-out {
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 auto;
+}
+
+.Links-in {
+    width: 80%;
+    padding: 1rem 0;
+    margin: 0 auto;
+}
+
+.for-sites {
+    width: 70%;
+    text-align: right;
+    float: right;
+}
+
+.unorLi {
+    display: flex;
+    text-align: right;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+footer ul li:first-child {
+    margin-right: unset;
+}
+
+.list {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    display: inline-block;
+    margin: 0 0.4rem;
+}
+
+.link-list {
+    color: #777;
+    text-decoration: none;
+}
+
+.link-list:hover {
+    opacity: 0.4;
+}
+
+.footer ul li:last-child {
+    margin-left: unset;
+}
+
+.sites-out {
+    width: 30%;
+    float: right;
+    text-align: left;
+}
+
+.sites-in {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+}
+
+.link-pointer1 {
+    width: 2rem;
+    display: inline-block;
+    margin-right: 0.25rem;
+    text-decoration: none;
+}
+
+.link-pointer1 img:hover {
+    opacity: 0.6;
+}
+
+.Links-out {
+    height: 60px;
+}
+
+.link-pointer2 {
+    width: 2rem;
+    display: inline-block;
+    margin: 0 0.25rem;
+    text-decoration: none;
+}
+
+.All-rights-reserved {
+    width: 100%;
+    color: #777;
+    background-color: #eee;
+}
+
+.rights-reserved-Out {
+    width: 80%;
+    padding: 1rem 0;
+    margin: 0 auto;
+}
+
+.rights-reserved-In {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rights-reserved {
+    text-align: right;
+    font-size: 1rem;
+}
+
+.rights-Hack {
+    text-align: left;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    header {
+        height: 11rem;
+        display: grid;
+        row-gap: 20px;
+        justify-content: center;
+    }
+
+    .imglogo {
+        margin: auto;
+    }
+
+    .login-regist {
+        padding: 0;
+    }
+
+    .available {
+        width: 90%;
+    }
+
+    .tracks {
+        width: 90%;
+    }
+
+    .Search-track {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        height: 300px;
+    }
+
+    .goal-programming,
+    .level,
+    .programming-language {
+        width: 100%;
+        padding: 1rem 0.5rem;
+    }
+
+    .paths {
+        display: grid;
+    }
+
+    .actual-path {
+        width: 100%;
+    }
+
+    footer {
+        position: relative;
+        top: 2356px;
+    }
+
+    .unorLi {
+        display: grid;
+        justify-content: space-evenly;
+        grid-template-columns: 1fr 1fr;
+        width: 275px;
+    }
+
+    .sites-in {
+        display: none;
+    }
+
+    .All-rights-reserved {
+        position: relative;
+        top: 35px;
+    }
+
+    .rights-reserved-Out {
+        width: 90%;
+        height: 142px;
+    }
+
+    .rights-reserved-In {
+        float: right;
+        display: grid;
+        row-gap: 50px;
+        position: relative;
+        top: -9px;
+    }
+
+    .rights-Hach {
+        direction: ltr;
+    }
+}

@@ -1,0 +1,104 @@
+html {
+    line-height: 1.15;
+}
+
+body {
+    color: #333;
+    background-color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.HomePage {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.content {
+    width: 90%;
+    padding: 2rem 0;
+    margin: 0 auto 0.5rem auto;
+}
+
+.barmej-logo {
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.Password-Reset {
+    padding: 4rem 2rem;
+    border: 2px solid #EEE;
+    border-radius: 0.25rem;
+}
+
+.Password-Reset h3 {
+    font-size: 2rem;
+    text-align: right;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.email-regist {
+    width: 70%;
+}
+
+.write-email {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.Email {
+    width: 100%;
+    height: 3rem;
+    text-align: right;
+    color: #333;
+    padding: 1rem 1rem 1rem 0.5rem;
+    border: 1px solid #e4e5e7;
+    border-radius: 0.25rem;
+}
+
+.Reset {
+    width: auto;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem 4rem;
+    margin-top: 0.25rem;
+    background-color: #357edd;
+    color: #fff;
+    border: 0 none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.Reset :hover {
+    background-color: #15355f;
+}
+
+@media (max-width: 768px) {
+    p {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .Password-Reset {
+        padding: 2rem 1rem;
+    }
+
+    .email-regist {
+        width: 90%;
+        margin: auto;
+    }
+
+    .Reset {
+        font-size: 0.8rem;
+    }
+
+    form {
+        display: grid;
+    }
+}
