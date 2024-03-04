@@ -29,4 +29,4 @@ This project was created as an offline project to showcase skills in web design 
 
 ## Contributors
 
-- [ayaa5aly](https://github.com/ayaa5aly)
+- [Aya Ali](https://github.com/ayaa5aly)
